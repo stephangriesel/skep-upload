@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .logo {
+  width: 20em;
+}
+
+.wrapper a {
+  text-decoration: none;
+  color: #a98f71;
+  padding: 1em 2em;
+  margin: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.wrapper a:hover {
+  background: #0a244d;
+  -webkit-transition: all 1.2s;
+  transition: all 1.2s;
+}
+
+.wrapper .ud_button {
+  border: #a98f71 solid 1px;
+}
+
+a.cloudinary-delete {
+  font-size: 30px;
+}
+/*# sourceMappingURL=styles.css.map */
