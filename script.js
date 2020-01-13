@@ -3,6 +3,7 @@ $("#upload_widget_opener").cloudinary_upload_widget(
         cloud_name: "dvme554nj",
         upload_preset: "qtzenltc",
         // cropping: "server",
+        showAdvancedOptions: true,
         folder: "skep",
         theme: "minimal",
         stylesheet: ".drag_content { border: 4px solid red }",
